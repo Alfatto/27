@@ -1,12 +1,14 @@
 import java.util.*;
 
 public class Level1{
-	static StringBuilder stringBuilderCopy = new StringBuilder();
+    static StringBuilder stringBuilderCopy = new StringBuilder();
     static StringBuilder result = new StringBuilder();
     static  StringBuilder strBuilder;
     static int[] array;
 
-	public static boolean proverca(StringBuilder stringBuilder) {
+
+
+    public static boolean proverca(StringBuilder stringBuilder) {
         boolean vosrastanie = false;
         array = new int[stringBuilder.length()];
 
